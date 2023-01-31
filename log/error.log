@@ -1,0 +1,630 @@
+[2022-06-25T21:38:45.706] [ERROR] default - Error: listen EADDRINUSE: address already in use :::3031
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (/home/esteban/Desktop/Backend/Entrega-19/node_modules/express/lib/application.js:618:24)
+    at file:///home/esteban/Desktop/Backend/Entrega-19/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:185:25)
+    at async Promise.all (index 0)
+    at async ESMLoader.import (node:internal/modules/esm/loader:281:24)
+    at async loadESM (node:internal/process/esm_loader:88:5)
+    at async handleMainPromise (node:internal/modules/run_main:65:12) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 3031
+}
+[2023-01-22T16:25:26.118] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor y34-20020a05687045a200b00143ae7d4ccesm10940557oao.45 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor y34-20020a05687045a200b00143ae7d4ccesm10940557oao.45 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-22T23:40:11.661] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor w11-20020a0568080d4b00b0035c422bb303sm22425796oik.19 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor w11-20020a0568080d4b00b0035c422bb303sm22425796oik.19 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-22T23:41:03.514] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 2-20020aca0602000000b0036508145326sm11259052oig.9 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 2-20020aca0602000000b0036508145326sm11259052oig.9 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-22T23:42:07.713] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.usuarios index: username_1 dup key: { username: "lauti" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'lauti' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-22T23:42:13.460] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.usuarios index: username_1 dup key: { username: "lauti" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'lauti' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-22T23:42:34.187] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z26-20020a056830129a00b00686b47471eesm3668367otp.73 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor z26-20020a056830129a00b00686b47471eesm3668367otp.73 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-22T23:44:54.912] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c15-20020a4ae24f000000b004f28d09a880sm14140733oot.13 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c15-20020a4ae24f000000b004f28d09a880sm14140733oot.13 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-22T23:56:17.504] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c15-20020a4ae24f000000b004f28d09a880sm14149019oot.13 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor c15-20020a4ae24f000000b004f28d09a880sm14149019oot.13 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-23T00:00:25.742] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.usuarios index: username_1 dup key: { username: "pedro" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'pedro' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-23T00:01:12.509] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.usuarios index: username_1 dup key: { username: "juana" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'juana' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-23T00:01:30.470] [ERROR] default - Error: Invalid login: 534-5.7.9 Application-specific password required. Learn more at
+534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor e8-20020a544f08000000b0035aa617156bsm22734959oiy.17 - gsmtp
+    at SMTPConnection._formatError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:784:19)
+    at SMTPConnection._actionAUTHComplete (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:1536:34)
+    at SMTPConnection.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:540:26)
+    at SMTPConnection._processResponse (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:947:20)
+    at SMTPConnection._onData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:749:14)
+    at SMTPConnection._onSocketData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (node:events:513:28)
+    at addChunk (node:internal/streams/readable:324:12)
+    at readableAddChunk (node:internal/streams/readable:297:9)
+    at Readable.push (node:internal/streams/readable:234:10) {
+  code: 'EAUTH',
+  response: '534-5.7.9 Application-specific password required. Learn more at\n' +
+    '534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor e8-20020a544f08000000b0035aa617156bsm22734959oiy.17 - gsmtp',
+  responseCode: 534,
+  command: 'AUTH PLAIN'
+}
+[2023-01-23T00:06:52.080] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.usuarios index: username_1 dup key: { username: "pepardo" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { username: 1 },
+  keyValue: { username: 'pepardo' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-23T00:32:39.136] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-23T00:36:08.270] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-23T00:37:20.181] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T16:44:03.564] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:81:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:10:37.371] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:12:12.388] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'ID_FIELD')
+    at getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/persistence/producto.js:26:23)
+    at ProductoService.getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/services/producto.service.js:32:22)
+    at getById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/controllers/product.controller.js:16:43)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
+[2023-01-30T19:12:35.527] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:12:37.544] [ERROR] default - TypeError: Cannot read properties of undefined (reading '_id')
+    at getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/persistence/producto.js:26:23)
+    at ProductoService.getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/services/producto.service.js:32:22)
+    at getById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/controllers/product.controller.js:16:43)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
+[2023-01-30T19:12:52.245] [ERROR] default - TypeError: Cannot read properties of undefined (reading '_id')
+    at getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/persistence/producto.js:26:23)
+    at ProductoService.getProductById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/services/producto.service.js:32:22)
+    at getById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/controllers/product.controller.js:16:43)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
+[2023-01-30T19:16:05.082] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:18:12.079] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:19:21.065] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:19:39.996] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:20:50.462] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:23:48.116] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:25:10.492] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:30:35.645] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:31:10.946] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:31:15.530] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:31:23.875] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:32:05.267] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:38:21.743] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:38:30.731] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:39:25.631] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:40:38.529] [ERROR] default - Error: listen EADDRINUSE: address already in use :::8080
+    at Server.setupListenHandle [as _listen2] (node:net:1733:16)
+    at listenInCluster (node:net:1781:12)
+    at Server.listen (node:net:1869:7)
+    at Function.listen (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\application.js:618:24)
+    at file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/server.js:90:20
+    at ModuleJob.run (node:internal/modules/esm/module_job:194:25) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 8080
+}
+[2023-01-30T19:51:26.831] [ERROR] default - MongoServerError: E11000 duplicate key error collection: terceraEntrega.productos index: code_1 dup key: { code: "00444" }
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\operations\insert.js:53:33
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection_pool.js:273:25
+    at handleOperationResult (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\sdam\server.js:327:20)
+    at Connection.onMessage (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:215:9)
+    at MessageStream.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\connection.js:63:60)
+    at MessageStream.emit (node:events:513:28)
+    at processIncomingData (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:108:16)
+    at MessageStream._write (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\node_modules\mongodb\lib\cmap\message_stream.js:28:9)
+    at writeOrBuffer (node:internal/streams/writable:392:12)
+    at _write (node:internal/streams/writable:333:10) {
+  index: 0,
+  code: 11000,
+  keyPattern: { code: 1 },
+  keyValue: { code: '00444' },
+  [Symbol(errorLabels)]: Set(0) {}
+}
+[2023-01-30T19:55:08.955] [ERROR] default - CastError: Cast to ObjectId failed for value "3d849f9d87d3490ed8fccc0" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:4715:21)
+    at Query.then (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:4814:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: '"3d849f9d87d3490ed8fccc0"',
+  kind: 'ObjectId',
+  value: '3d849f9d87d3490ed8fccc0',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at SchemaType.applySetters (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1189:12)
+      at SchemaType._castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1623:15)
+      at SchemaType.castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1613:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\cast.js:344:32)
+      at Query.cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2023-01-30T19:55:15.308] [ERROR] default - CastError: Cast to ObjectId failed for value "3d849f9d87d3490ed8fccc0" (type string) at path "_id" for model "productos"
+    at model.Query.exec (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:4715:21)
+    at Query.then (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:4814:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5) {
+  messageFormat: undefined,
+  stringValue: '"3d849f9d87d3490ed8fccc0"',
+  kind: 'ObjectId',
+  value: '3d849f9d87d3490ed8fccc0',
+  path: '_id',
+  reason: BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+      at new BSONTypeError (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\bson\lib\error.js:41:28)
+      at new ObjectId (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\bson\lib\objectid.js:67:23)
+      at castObjectId (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\cast\objectid.js:24:12)
+      at ObjectId.cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schema\objectid.js:247:12)
+      at SchemaType.applySetters (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1189:12)
+      at SchemaType._castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1623:15)
+      at SchemaType.castForQuery (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1613:15)
+      at SchemaType.castForQueryWrapper (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\schematype.js:1590:20)
+      at cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\cast.js:344:32)
+      at Query.cast (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\mongoose\lib\query.js:5137:12),
+  valueType: 'string'
+}
+[2023-01-30T20:24:00.500] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'ID_FIELD')
+    at deleteCartById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/persistence/cart.js:15:58)
+    at CarritoService.deleteCartById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/services/carrito.service.js:19:16)
+    at remove (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/controllers/cart.controller.js:16:45)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
+[2023-01-30T20:25:02.242] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'ID_FIELD')
+    at deleteCartById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/persistence/cart.js:15:58)
+    at CarritoService.deleteCartById (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/services/carrito.service.js:19:16)
+    at remove (file:///C:/Users/Usuario/Desktop/Coder/Backend/Projects/Desaf%C3%ADo19-ProyectoEnCapas/src/controllers/cart.controller.js:16:45)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
+    at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
