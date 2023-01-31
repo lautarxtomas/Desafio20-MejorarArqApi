@@ -1,11 +1,11 @@
-import { UsuariosModel } from "../models/usuarios.model.js";
-import logger from "../utils/loggers/Log4jsLogger.js";
+import { UsuariosModel } from "../../../models/usuarios.model.js";
+import logger from "../../../utils/loggers/Log4jsLogger.js";
 
 import {
   transporter,
   options,
   sendMail,
-} from "../utils/notifications/emailSender.js";
+} from "../../../utils/notifications/emailSender.js";
 // import { sendSMS, from, body } from "../utils/notifications/smsSender.js";
 
 export async function createUser(object) {

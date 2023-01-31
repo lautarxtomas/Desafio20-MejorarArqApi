@@ -14,6 +14,9 @@ import logger from "./utils/loggers/Log4jsLogger.js";
 import loggerMiddleware from "./middlewares/routesLogger.middleware.js";
 const app = express();
 
+import dotenv from 'dotenv'
+dotenv.config()
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 

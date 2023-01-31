@@ -1,4 +1,4 @@
-import { createUser, loginUser } from "../persistence/user.js";
+import { createUser, loginUser } from "../persistence/daos/user/UserDaoMongo.js";
 
 export class UsuarioService {
 
