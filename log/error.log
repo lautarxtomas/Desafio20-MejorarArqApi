@@ -628,15 +628,3 @@
     at C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:281:22
     at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:360:14)
     at param (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafío19-ProyectoEnCapas\node_modules\express\lib\router\index.js:371:14)
-[2023-01-31T16:11:50.846] [ERROR] default - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafio20-MejorarArquitecturaAPI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)
-[2023-01-31T16:12:17.130] [ERROR] default - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafio20-MejorarArquitecturaAPI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)
-[2023-01-31T16:13:58.819] [ERROR] default - MongooseError: Operation `usuarios.findOne()` buffering timed out after 10000ms
-    at Timeout.<anonymous> (C:\Users\Usuario\Desktop\Coder\Backend\Projects\Desafio20-MejorarArquitecturaAPI\node_modules\mongoose\lib\drivers\node-mongodb-native\collection.js:151:23)
-    at listOnTimeout (node:internal/timers:564:17)
-    at process.processTimers (node:internal/timers:507:7)

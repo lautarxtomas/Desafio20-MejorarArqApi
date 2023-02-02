@@ -13,4 +13,4 @@ const Schema = new mongoose.Schema({
     ]
 });
 
-export const CarritosModel = mongoose.model("carritos", Schema);
+export const CartModel = mongoose.model("carritos", Schema);

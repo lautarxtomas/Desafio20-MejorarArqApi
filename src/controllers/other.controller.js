@@ -16,7 +16,7 @@ export async function getInfo(req, res) {
 
 export async function getRandomNumbers(req, res) {
 
-    const randomNumbersGeneratorFork = fork("./utils/functions/randomNumbersGenerator.js"); // AL HACER FORK ESPECIFICAR RUTA DESDE EL SERVER.JS
+    const randomNumbersGeneratorFork = fork("./utils/functions/randomNumbersGenerator.js"); // AL USAR FORK ESPECIFICAR RUTA DESDE EL SERVER.JS
 	randomNumbersGeneratorFork.send(req.query.cantidad || 500000000);
 	randomNumbersGeneratorFork.on("message", (msg) => res.json(msg));
 

@@ -1,7 +1,7 @@
-import { UsuarioService } from '../services/usuario.service.js';
+import { UserService } from '../services/user.service.js';
 import logger from '../utils/loggers/Log4jsLogger.js'
 
-const usuarioService = new UsuarioService();
+const userService = new UserService();
 
 export async function logInView(req, res) {
     if (req.session.login) {
@@ -21,11 +21,11 @@ export async function signUpView(req, res) {
 
 export async function signUp(req, res) {
     const { body } = req;
-    const newUser = await usuarioService.createUser(body);
+    const newUser = await userService.createUser(body);
 
     if (newUser) {
         
-        logger.info('Nuevo usuario creado!')
+        logger.info('User created!')
 
         res.redirect('/api/usuario/login')
     } else {
@@ -36,7 +36,7 @@ export async function signUp(req, res) {
 
 export async function logIn(req, res) {
     const {user, pass} = req.body;
-    const loggedUser = await usuarioService.loginUser({
+    const loggedUser = await userService.loginUser({
         username: user,
         password: pass
     });

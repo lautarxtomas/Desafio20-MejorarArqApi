@@ -1,8 +1,8 @@
 {
-  "name": "entrega-18",
+  "name": "entrega-20",
   "version": "1.0.0",
-  "description": "Entrega 18 para bootcamp de backend Coderhouse",
-  "author": "Esteban Demarchi",
+  "description": "Entrega 20 del curso de Backend de Coderhouse",
+  "author": "Lautaro Martinez",
   "main": "index.js",
   "type": "module",
   "scripts": {

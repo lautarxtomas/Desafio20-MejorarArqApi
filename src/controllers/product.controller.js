@@ -1,19 +1,18 @@
-import ProductoService  from "../services/producto.service.js";
+import { ProductService } from "../services/product.service.js";
 
-// const productoService = new ProductoService();
+const productService = new ProductService();
 
 export async function getAll(req, res) {
-    const products = await ProductoService.getAllProducts();
-    res.render('pages/products', { products })
-
-    // products
-    //     ? res.status(200).json(products)
-    //     : res.status(400).json({"error": "there was a problem when trying to get the products"})
+    const products = await productService.getAll();
+    // res.render('pages/products', { products })
+    products
+        ? res.status(200).json(products)
+        : res.status(400).json({"error": "there was a problem when trying to get the products"})
 }
 
 export async function getById(req, res) {
     const {id} = req.params;
-    const product = await ProductoService.getProductById(id);
+    const product = await productService.getProductById(id);
 
     product
         ? res.status(200).json(product)
@@ -22,7 +21,7 @@ export async function getById(req, res) {
 
 export async function create(req, res) {
     const {body} = req;
-    const newProduct = await ProductoService.createProduct(body);
+    const newProduct = await productService.createProduct(body);
 
     newProduct
         ? res.status(200).json({"success": "Product added with ID " + newProduct._id})
@@ -32,7 +31,7 @@ export async function create(req, res) {
 export async function update(req, res) {
     const {id} = req.params;
     const {body} = req;
-    const wasUpdated = await ProductoService.updateProductById(id, body);
+    const wasUpdated = await productService.updateProductById(id, body);
 
     wasUpdated
         ? res.status(200).json({"success": "product updated"})
@@ -41,7 +40,7 @@ export async function update(req, res) {
 
 export async function remove(req, res) {
     const {id} = req.params;
-    const wasDeleted = await ProductoService.deleteProductById(id)
+    const wasDeleted = await productService.deleteProductById(id)
 
     wasDeleted
         ? res.status(200).json({"success": "product successfully removed"})
